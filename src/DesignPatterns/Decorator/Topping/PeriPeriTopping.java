@@ -1,6 +1,6 @@
-package DesignPatterns.DecoratorDesignPattern.Topping;
+package DesignPatterns.Decorator.Topping;
 
-import DesignPatterns.DecoratorDesignPattern.Pizza.BasePizza;
+import DesignPatterns.Decorator.Pizza.BasePizza;
 
 public class PeriPeriTopping extends ToppingDecorator{
     BasePizza pizza;

@@ -1,4 +1,4 @@
-package DesignPatterns.DecoratorDesignPattern.Pizza;
+package DesignPatterns.Decorator.Pizza;
 
 public class ChickenPizza extends BasePizza{
     @Override
