@@ -2,7 +2,7 @@ import DesignPatterns.StrategyDesignPattern.NormalVehicle;
 import DesignPatterns.StrategyDesignPattern.SportsVehicle;
 import DesignPatterns.StrategyDesignPattern.Vehicle;
 
-public class Test {
+public class Decorator {
     public static void main(String[] args) {
         Vehicle sportsCar = new SportsVehicle();
         sportsCar.drive();
