@@ -1,16 +1,16 @@
+import DesignPatterns.Decorator.Pizza.BasePizza;
+import DesignPatterns.Decorator.Pizza.ChickenPizza;
+import DesignPatterns.Decorator.Topping.PeriPeriTopping;
 import DesignPatterns.StrategyDesignPattern.NormalVehicle;
 import DesignPatterns.StrategyDesignPattern.SportsVehicle;
 import DesignPatterns.StrategyDesignPattern.Vehicle;
 
 public class Decorator {
     public static void main(String[] args) {
-        Vehicle sportsCar = new SportsVehicle();
-        sportsCar.drive();
+        BasePizza pizza = new ChickenPizza();
+        pizza = new PeriPeriTopping(pizza);
 
-        Vehicle car = new NormalVehicle();
-        car.drive();
-
-        Vehicle truck = new NormalVehicle();
-        truck.drive();
+        System.out.println(pizza.type());
+        System.out.println(pizza.cost());
     }
 }
