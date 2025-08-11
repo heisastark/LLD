@@ -13,7 +13,7 @@ public class Decorator {
         //Select a Topping
         pizza = new PeriPeriTopping(pizza);
 
-        //Type concatinates Chicken + Peri Peri
+        //Type concatenates Chicken + Peri Peri
         System.out.println(pizza.type());
 
         //Cost calculates Total Cost
