@@ -7,10 +7,16 @@ import DesignPatterns.StrategyDesignPattern.Vehicle;
 
 public class Decorator {
     public static void main(String[] args) {
+        //Select a Pizza (Veg/Chicken)
         BasePizza pizza = new ChickenPizza();
+
+        //Select a Topping
         pizza = new PeriPeriTopping(pizza);
 
+        //Type concatinates Chicken + Peri Peri
         System.out.println(pizza.type());
+
+        //Cost calculates Total Cost
         System.out.println(pizza.cost());
     }
 }
