@@ -59,8 +59,8 @@ class StockMarketImpl implements StockMarket{
 
 public class Observer {
     public static void main(String[] args){
-        Investor yash = new Investor("yash");
         Investor richi = new Investor("richi");
+        Investor yash = new Investor("yash");
         Agent circuit = new Agent("57821");
 
         StockMarketImpl stockMarket = new StockMarketImpl();
