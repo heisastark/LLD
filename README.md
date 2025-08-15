@@ -22,4 +22,5 @@ to take reference and suggest modifications.
 ### Behavioral
 <b>Idea:</b> Deal with object interaction and responsibility
 - [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Observer.java)
+- [State](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/State.java)
 - [Strategy](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Strategy.java)
