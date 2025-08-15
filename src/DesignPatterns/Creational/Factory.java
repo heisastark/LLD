@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.Creational;
 
 interface Shape{
     public void draw();

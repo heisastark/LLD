@@ -11,7 +11,12 @@ to take reference and suggest modifications.
 4. Run the Java File for the Design Pattern you would like
 
 ## Design Patterns
-
+### Creational
+<b>Idea:</b> Deal with object creation
 - [Factory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Factory.java)
+### Structural
+<b>Idea:</b> Deal with object composition and relationships
 - [Decorator](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Decorator.java)
+### Behavioral
+<b>Idea:</b> Deal with object interaction and responsibility
 - [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Observer.java)

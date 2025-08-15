@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.Structural;
 
 interface BasePizza{
     public String type();
