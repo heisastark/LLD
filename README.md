@@ -14,9 +14,12 @@ to take reference and suggest modifications.
 ### Creational
 <b>Idea:</b> Deal with object creation
 - [Factory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Factory.java)
+- [Singleton](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Observer.java)
+- [AbstractFactory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/AbstractFactory.java)
 ### Structural
 <b>Idea:</b> Deal with object composition and relationships
-- [Decorator](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Decorator.java)
+- [Decorator](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Structural/Decorator.java)
 ### Behavioral
 <b>Idea:</b> Deal with object interaction and responsibility
-- [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Observer.java)
+- [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Observer.java)
+- [Strategy](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Strategy.java)
