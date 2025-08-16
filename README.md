@@ -19,6 +19,8 @@ to take reference and suggest modifications.
 ### Structural
 <b>Idea:</b> Deal with object composition and relationships
 - [Decorator](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Structural/Decorator.java)
+- [Adapter](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Structural/Adapter.java)
+- [Facade](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Structural/Facade.java)
 ### Behavioral
 <b>Idea:</b> Deal with object interaction and responsibility
 - [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Observer.java)
