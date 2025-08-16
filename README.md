@@ -24,3 +24,4 @@ to take reference and suggest modifications.
 - [Observer](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Observer.java)
 - [State](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/State.java)
 - [Strategy](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Strategy.java)
+- [ChainOfResponsibility](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/ChainOfResponsibility.java)
