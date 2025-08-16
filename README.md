@@ -16,6 +16,7 @@ to take reference and suggest modifications.
 - [Factory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Factory.java)
 - [Singleton](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Observer.java)
 - [AbstractFactory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/AbstractFactory.java)
+- [Builder](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Builder.java)
 ### Structural
 <b>Idea:</b> Deal with object composition and relationships
 - [Decorator](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Structural/Decorator.java)
