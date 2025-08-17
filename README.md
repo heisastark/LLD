@@ -13,8 +13,8 @@ to take reference and suggest modifications.
 ## Design Patterns
 ### Creational
 <b>Idea:</b> Deal with object creation
-- [Factory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Factory.java)
-- [Singleton](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Observer.java)
+- [Factory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Factory.java)
+- [Singleton](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Singleton.java)
 - [AbstractFactory](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/AbstractFactory.java)
 - [Builder](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Creational/Builder.java)
 ### Structural
