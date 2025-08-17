@@ -28,3 +28,7 @@ to take reference and suggest modifications.
 - [State](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/State.java)
 - [Strategy](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/Strategy.java)
 - [ChainOfResponsibility](https://github.com/heisastark/LLD/blob/main/src/DesignPatterns/Behavioral/ChainOfResponsibility.java)
+
+## Low Level Designs
+
+- [Parking Lot](https://github.com/heisastark/LLD/blob/main/src/ParkingLot/ParkingLot.java)
