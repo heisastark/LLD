@@ -32,4 +32,4 @@ to take reference and suggest modifications.
 ## Low Level Designs
 
 - [Parking Lot](https://github.com/heisastark/LLD/blob/main/src/ParkingLot/ParkingLot.java)
-- [Parking Lot](https://github.com/heisastark/LLD/blob/main/src/FileSystem/FileSystem.java)
+- [File System](https://github.com/heisastark/LLD/blob/main/src/FileSystem/FileSystem.java)
