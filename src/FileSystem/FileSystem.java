@@ -201,10 +201,45 @@ class LsCommand implements Command {
     }
 }
 
+public class FileSystem{
+    private String name;
+    private long size;
+    private long used;
+    Map<Partition, Long> partitions;
+
+    public FileSystem(String name, long size){
+        this.name = name;
+        this.size = size;
+        this.used = 0;
+        partitions = new HashMap<>();
+    }
+
+    public Partition createPartition(String partitionName, long partitionSize){
+        if(used + partitionSize > size){
+            return null;
+        }
+        Partition p = new Partition(partitionName, partitionSize);
+        used += partitionSize;
+        partitions.put(p, partitionSize);
+        return p;
+    }
+}
+
 // ================= Main =================
-public class FileSystem {
+class FileSystemDemo {
     public static void main(String[] args) {
-        Partition p1 = new Partition("C", 100); // 100MB partition
+        FileSystem fileSystem = new FileSystem("WindowsFileSystem", 100);
+        Partition p1 = fileSystem.createPartition("C", 80);
+        if(p1 == null){
+            System.out.println("Partition could not be created!");
+            return;
+        }
+
+//        Partition p2 = fileSystem.createPartition("D", 90);
+//        if(p2 == null){
+//            System.out.println("Partition could not be created!");
+//            return;
+//        }
 
         Command mkdirDocs = new MkdirCommand(p1, "root", "Documents");
         Command touchFile = new TouchCommand(p1, "root/Documents", "notes.txt", 10);
