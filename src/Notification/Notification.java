@@ -97,7 +97,7 @@ public class Notification {
 
         // Fire notification
         NotificationRequest req = new NotificationRequest(
-                "Welcome! Your order is confirmed.",
+                "Thank you! Your order is confirmed.",
                 LocalDateTime.now()
         );
 
